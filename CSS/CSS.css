@@ -2,11 +2,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  margin: 50px 60px 10px;
+  margin-top: 15px;
   font-size: 55px;
   font-weight: 600;
   color: darkblue;
   text-align: center;
+}
+
+small {
+  font-size: 20px;
+  font-weight: 600;
+  color: darkblue;
+  text-align: center;
+  position: relative;
+  top: -25px;
 }
 
 h2 {
@@ -17,8 +26,8 @@ h2 {
 
 h3 {
   color: rgb(129, 128, 128);
-  margin-bottom: 50px;
-  font-size: 18px;
+
+  font-size: 20px;
   text-align: left;
   text-align: center;
 }
@@ -106,4 +115,28 @@ hr {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 15px;
+}
+
+.weather-icon {
+  margin-top: 40px;
+  font-size: 55px;
+  font-weight: 600;
+  color: darkblue;
+  text-align: center;
+}
+
+.wind-and-humidity {
+  color: rgb(129, 128, 128);
+  font-size: 16px;
+  text-align: left;
+  text-align: center;
+}
+
+.weather-description {
+  color: darkblue;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: left;
+  text-align: center;
 }
