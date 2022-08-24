@@ -24,8 +24,19 @@ h3.innerHTML = `${currentDay}, ${hours}:${minutes}`;
 function showTemp(response) {
   let h2 = document.querySelector("h2");
   h2.innerHTML = response.data.name;
-  let h1 = document.querySelector("h1");
-  h1.innerHTML = `⛅ ${Math.round(response.data.main.temp)}°C`;
+  let temperatureElement = document.querySelector("#temperature");
+  temperature.innerHTML = `${Math.round(response.data.main.temp)}`;
+  let weatherDescription = document.querySelector("#weather-description");
+  weatherDescription.innerHTML = response.data.weather[0].description;
+  let windSpeed = document.querySelector("#wind-speed");
+  windSpeed.innerHTML = `Wind Speed: ${Math.round(
+    response.data.wind.speed
+  )} km/h`;
+  let weatherIcon = document.querySelector("#weather-icon");
+  weatherIcon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function searchCity(city) {

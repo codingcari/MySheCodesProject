@@ -45,15 +45,20 @@
         <input type="submit" value="Search" class="search-button" />
       </form>
       <hr />
-      <div class="weather-icon">⛅</div>
+      <img
+        id="weather-icon"
+        src="http://openweathermap.org/img/wn/04d@2x.png"
+        alt="weather icon"
+      />
       <h1>
-        24<small>°C | <a href="#">°F</a></small>
+        <strong id="temperature">12</strong
+        ><small>°C | <a href="#">°F</a></small>
       </h1>
       <h2>Ludwigshafen am Rhein</h2>
       <br />
       <h3>Wednesday, 15:10</h3>
-      <div class="wind-and-humidity">Wind speed: 5 km/h | Humidity: 30%</div>
-      <div class="weather-description">Cloudy</div>
+      <div id="wind-speed">Wind speed: 5 km/h</div>
+      <div id="weather-description">Cloudy</div>
       <hr />
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item">🌞</li>

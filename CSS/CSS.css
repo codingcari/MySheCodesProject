@@ -1,10 +1,18 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+img {
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: darkblue;
+  display: block;
+  margin: 0 auto;
+}
 h1 {
   margin-top: 15px;
   font-size: 55px;
-  font-weight: 600;
+  font-weight: 450;
   color: darkblue;
   text-align: center;
 }
@@ -26,7 +34,6 @@ h2 {
 
 h3 {
   color: rgb(129, 128, 128);
-
   font-size: 20px;
   text-align: left;
   text-align: center;
@@ -117,26 +124,22 @@ hr {
   margin-bottom: 15px;
 }
 
-.weather-icon {
-  margin-top: 40px;
-  font-size: 55px;
-  font-weight: 600;
+#wind-speed {
   color: darkblue;
-  text-align: center;
-}
-
-.wind-and-humidity {
-  color: rgb(129, 128, 128);
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   text-align: center;
+  margin-top: 30px;
 }
 
-.weather-description {
+#weather-description {
   color: darkblue;
   margin-bottom: 40px;
-  margin-top: 30px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   text-align: center;
+}
+
+#weather-description:first-letter {
+  text-transform: capitalize;
 }
