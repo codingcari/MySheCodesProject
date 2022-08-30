@@ -143,3 +143,16 @@ hr {
 #weather-description:first-letter {
   text-transform: capitalize;
 }
+
+.active {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
