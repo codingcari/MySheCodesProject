@@ -97,6 +97,7 @@ hr {
   padding: 12px;
   color: rgb(129, 128, 128);
 }
+
 .detail-button {
   width: 320px;
   color: darkblue;
@@ -155,4 +156,20 @@ hr {
 
 #celsius-link {
   text-decoration: none;
+}
+
+#forecast-icon {
+  width: 55px;
+  margin: -12px;
+}
+
+#forecast-temp {
+  display: block;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+#forecast-date {
+  margin-top: -50px;
+  margin-left: 225px;
 }
